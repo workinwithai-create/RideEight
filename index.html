@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RideEight — live ride-out desk</title>
+  <meta name="description" content="Eight live-instrument bars that ride the last hook out instead of slamming a button or reprinting the chorus." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<main>
+  <p class="eyebrow">WorkinWithAI · live chairs</p>
+  <h1>RideEight</h1>
+  <p class="lead">Eight-bar live ride-out desk. Bedroom and AI tracks either hard-stop on a button or loop the last hook until the file ends. Session players keep the kit on the ride, walk the bass down, and let nylon and keys thin so the song leaves the room. Not a button ending. Not a last-eight rewrite. Not a fill.</p>
+  <p class="status" id="status">Seating chairs…</p>
+  <p class="eyebrow">Groove</p>
+  <div class="row" id="grooves"></div>
+  <p class="eyebrow">Ride recipe</p>
+  <div class="row" id="recipes"></div>
+  <p class="eyebrow">Form · pocket 1–8 · ride 9–16 · no crash land</p>
+  <div class="bars" id="bars"></div>
+  <h2>Punch list</h2>
+  <pre id="punch"></pre>
+</main>
+<div class="dock">
+  <button id="playA">A · Pocket loop</button>
+  <button id="playB">B · Full form</button>
+  <button id="play8">8 · Ride only</button>
+  <button class="ghost" id="stop">Stop</button>
+  <button class="ghost" id="copy">Copy punch</button>
+</div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
